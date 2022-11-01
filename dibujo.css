@@ -1,0 +1,545 @@
+:root{
+    --white: white;
+    --purple: #633182;
+    --red: red;
+    --black: black;
+    --green: rgb(10, 214, 10);
+    --gray: #7e7e7e;
+}
+.vanilla{
+    width: 2537px;
+    height: 1157px;
+    display: grid;
+    justify-items: center;
+    padding: 80px 0; 
+    position: relative;
+    background-color: var(--green);
+}
+
+.domo-body{
+    width: 600px;
+    height: 900px;
+    background-color: var(--white  );
+    border-radius: 120px;
+    position: relative;
+    overflow: hidden;
+}
+.domo-front{
+    position: absolute;
+    width: 300px;
+    height: 285px;
+    background-color: var(--purple);
+    border-radius: 50%;
+    left: 150px;
+    bottom: 594px;
+    z-index: 1;
+    overflow: hidden;
+}
+.domo-rectangle-head{
+    width: 100%;
+    height: 190px;
+    background-color: var(--purple);
+}
+.domo-circle-head-1{
+    position: absolute;
+    width: 179px;
+    height: 190px;
+    border-radius: 50%;
+    background-color: var(--white  );
+    top: 100px;
+    right: 447px;
+}
+.domo-circle-head-2{
+    position: absolute;
+    width: 179px;
+    height: 190px;
+    border-radius: 50%;
+    background-color: var(--white  );
+    top: 100px;
+    left: 447px;
+}
+.domo-eye-1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--black);
+    border: 5px solid var(--black);
+    left: 80px;
+    top: 330px;
+    overflow: hidden;
+}
+.shine-1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;    
+}
+.shine-2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50px;
+    left: 60px;
+}
+.domo-eye-2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--black);
+    border: 5px solid var(--black);
+    right: 80px;
+    top: 330px;
+    overflow: hidden;
+}
+.domo-mouth{
+    position: absolute;
+    width: 385px;
+    height: 260px;
+    border: 8px solid black ;
+    top: 540px;
+    left: 100px;
+    border-radius: 50px;
+    background-color: var(--red);
+    overflow: hidden;
+}
+.domo-theet-up-1{
+    width: 0; 
+    height: 0; 
+    border-top: 80px solid var(--white);
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    border-right: 50px solid transparent;
+}
+.domo-theet-up-2{
+    position: absolute;
+    left: 93px;
+    bottom: 131px;
+    width: 0; 
+    height: 0; 
+    border-top: 80px solid var(--white);
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    border-right: 50px solid transparent;
+}
+.domo-theet-up-3{
+    position: absolute;
+    left: 186px;
+    bottom: 131px;
+    width: 0; 
+    height: 0; 
+    border-top: 80px solid var(--white);
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    border-right: 50px solid transparent;
+}
+.domo-theet-up-4{
+    position: absolute;
+    left: 279px;
+    bottom: 131px;
+    width: 0; 
+    height: 0; 
+    border-top: 80px solid var(--white);
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    border-right: 50px solid transparent;
+}
+.domo-theet-down-1{
+    position: absolute;
+    top: 131px;
+    width: 0; 
+    height: 0; 
+    border-bottom: 80px solid var(--white);
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent; 
+    border-right: 50px solid transparent;
+}
+.domo-theet-down-2{
+    position: absolute;
+    left: 93px;
+    top: 131px;
+    width: 0; 
+    height: 0; 
+    border-bottom: 80px solid var(--white);
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent; 
+    border-right: 50px solid transparent;
+}
+.domo-theet-down-3{
+    position: absolute;
+    left: 186px;
+    top: 131px;
+    width: 0; 
+    height: 0; 
+    border-bottom: 80px solid var(--white);
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent; 
+    border-right: 50px solid transparent;
+}
+.domo-theet-down-4{
+    position: absolute;
+    left: 279px;
+    top: 131px;
+    width: 0; 
+    height: 0; 
+    border-bottom: 80px solid var(--white);
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent; 
+    border-right: 50px solid transparent;
+}
+
+.domo-rectangle-ear-1{
+    position: absolute;
+    width: 64px;
+    height: 257px;
+    right: 1568px;
+    top: 400px;
+    background-color: var(--white);
+}
+.domo-circle-ear-1{
+    position: absolute;
+    width: 24px;
+    height: 255px;
+    border: 3px solid var(--black);
+    right: 1623px;
+    top: 400px;
+    border-radius: 50%;
+    background-color: var(--black);
+
+}
+.domo-rectangle-ear-2{
+    position: absolute;
+    width: 64px;
+    height: 257px;
+    left: 1568px;
+    top: 400px;
+    background-color: var(--white);
+}
+.domo-circle-ear-2{
+    position: absolute;
+    width: 24px;
+    height: 255px;
+    border: 3px solid var(--black);
+    left: 1623px;
+    top: 400px;
+    border-radius: 50%;
+    background-color: var(--black);
+
+}
+/*-------------------------------------------------------------*/
+.domo-rectanglefake-top-ear-1{
+    position: absolute;
+    width: 64px;
+    height: 257px;
+    right: 1568px;
+    top: 144px;
+    background-color: var(--white);
+}
+.domo-circlefake-top-ear-1{
+    position: absolute;
+    width: 104px;
+    height: 257px;
+    right: 1568px;
+    top: 144px;
+    background-color: var(--green);
+    border-radius: 50% ;
+}
+.domo-rectangleerase-top-ear-1{
+    position: absolute;
+    width: 64px;
+    height: 133px;
+    right: 1568px;
+    top: 143px;
+    background-color: var(--green);
+}
+/*---------------------------------------------------------------------*/
+.domo-rectanglefake-down-ear-1{
+    position: absolute;
+    width: 64px;
+    height: 257px;
+    right: 1568px;
+    top: 656px;
+    background-color: var(--white);
+
+}
+.domo-circlefake-down-ear-1{
+    position: absolute;
+    width: 104px;
+    height: 257px;
+    right: 1568px;
+    top: 656px;
+    background-color: var(--green);
+    border-radius: 50% ;
+}
+.domo-rectangleerase-down-ear-1{
+    position: absolute;
+    width: 64px;
+    height: 133px;
+    right: 1568px;
+    top: 793px;
+    background-color: var(--green);
+}
+/*-----------------------------------------------------------------------*/
+.domo-rectanglefake-top-ear-2{
+    position: absolute;
+    width: 64px;
+    height: 257px;
+    left: 1568px;
+    top: 144px;
+    background-color: var(--white);
+}
+.domo-circlefake-top-ear-2{
+    position: absolute;
+    width: 104px;
+    height: 257px;
+    left: 1568px;
+    top: 144px;
+    background-color: var(--green);
+    border-radius: 50% ;
+}
+.domo-rectangleerase-top-ear-2{
+    position: absolute;
+    width: 64px;
+    height: 133px;
+    left: 1568px;
+    top: 143px;
+    background-color: var(--green);
+}
+/*---------------------------------------------------------------------*/
+.domo-rectanglefake-down-ear-2{
+    position: absolute;
+    width: 64px;
+    height: 257px;
+    left: 1568px;
+    top: 656px;
+    background-color: var(--white);
+
+}
+.domo-circlefake-down-ear-2{
+    position: absolute;
+    width: 104px;
+    height: 257px;
+    left: 1568px;
+    top: 656px;
+    background-color: var(--green);
+    border-radius: 50% ;
+}
+.domo-rectangleerase-down-ear-2{
+    position: absolute;
+    width: 64px;
+    height: 133px;
+    left: 1568px;
+    top: 793px;
+    background-color: var(--green);
+}
+/*-----------------------------------------------------------------*/
+.domo-ear1-line-up-separation{
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background-color: var(--gray);
+    top: 368px;
+    right: 1575px;
+    transform: rotate(175deg);
+}
+.domo-ear1-line-mid-separation{
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    background-color: var(--gray);
+    top: 500px;
+    right: 1568px;
+}
+.domo-ear1-line-down-separation{
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background-color: var(--gray);
+    top: 605px;
+    right: 1575px;
+    transform: rotate(9deg);
+}
+.domo-ear1-line-intern{
+    position: absolute;
+    width: 24px;
+    height: 200px;
+    border-right: 5px solid var(--gray);
+    right: 1595px;
+    top: 430px;
+    border-radius: 50%;
+}
+/*------------------------------------------------------*/
+.domo-ear2-line-up-separation{
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background-color: var(--gray);
+    top: 360px;
+    left: 1575px;
+    transform: rotate(7deg);
+}
+.domo-ear2-line-down-separation{
+    position: absolute;
+    width: 5px;
+    height: 175px;
+    background-color: var(--gray);
+    top: 510px;
+    left: 1575px;
+    transform: rotate(174deg);
+}
+.domo-ear2-line-intern{
+    position: absolute;
+    width: 24px;
+    height: 200px;
+    border-left: 5px solid var(--gray);
+    left: 1595px;
+    top: 460px;
+    border-radius: 50%;
+}
+.domo-ear2-dot-intern{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: var(--gray);
+    border-radius: 50%;
+    top: 420px;
+    left: 1600px;
+    transform: rotate(7deg);
+}
+.domo-cien{
+    position: absolute;
+    width: 25px;
+    height: 100px;
+    border-radius: 50%;
+    border-right: 9px solid var(--gray);
+    top: 230px;
+    right: 1480px;
+}
+.domo-mad{
+    position: absolute;
+    top: 230px;
+    left: 1435px;
+    width: 102px;
+    height: 102px;
+    transform: rotate(160deg);
+}
+.mad-item-1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-right: 6px solid var(--gray);
+    border-bottom: 6px solid var(--gray);
+}
+.mad-item-2{
+    position: absolute;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-left: 6px solid var(--gray);
+    border-bottom: 6px solid var(--gray);
+}
+.mad-item-3{
+    position: absolute;
+    top: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-right: 6px solid var(--gray);
+    border-top: 6px solid var(--gray);
+}
+.mad-item-4{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-left: 6px solid var(--gray);
+    border-top: 6px solid var(--gray);
+}
+
+.domo-scar-start-1{
+    position: absolute;
+    width: 5px;
+    height: 58px;
+    background-color: var(--black);
+    top: 499px;
+    right: 1483px;
+    transform: rotate(30deg);
+}
+.domo-scar-start-2{
+    position: absolute;
+    width: 5px;
+    height: 58px;
+    background-color: var(--black);
+    top: 499px;
+    left: 1483px;
+    transform: rotate(150deg);
+}
+.domo-scar-mid-1{
+    position: absolute;
+    width: 5px;
+    height: 348px;
+    background-color: var(--black);
+    top: 550px;
+    right: 1497px;
+}
+.domo-scar-mid-2{
+    position: absolute;
+    width: 5px;
+    height: 348px;
+    background-color: var(--black);
+    top: 550px;
+    left: 1497px;
+}
+.domo-scar-end-1{
+    position: absolute;
+    width: 5px;
+    height: 95px;
+    background-color: var(--black);
+    top: 892px;
+    right: 1475px;
+    transform: rotate(151deg);
+}
+.domo-scar-end-2{
+    position: absolute;
+    width: 5px;
+    height: 95px;
+    background-color: var(--black);
+    top: 892px;
+    left: 1475px;
+    transform: rotate(28deg);
+}
+.front-circle{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #391a4d;
+    left: 140px;
+    top: 152px;
+}
+.circle-wite-one{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #e3c7f7;
+    left: 0px;
+    top: 82px; 
+}
+.domo-circle-free{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color:#9a67bd;
+    right: 130px;
+    bottom: 782px;  
+    z-index: 2;
+}
